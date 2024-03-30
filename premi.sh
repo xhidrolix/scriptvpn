@@ -333,8 +333,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="ISI ID MU"
-KEY="ISI TOKEN BOT"
+CHATID="-4124346554"
+KEY="7131481321:AAGI3LtovNqUG65-Uf9aMM93n_RzrCRg8Oo"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -350,7 +350,7 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> TOMKET VPN STORE SCRIPT  </b>
+<b> VNZ VPN STORE SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/ohmyvillain"}]]}' 
@@ -1037,11 +1037,11 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ SCRIPT BY VILLAIN TUNNEL ]-==============="
+echo "===============-[ SCRIPT BY VnzVPN ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
-echo "TOLOL"
+echo "ThanksYou For Using Script VnzVPN"
 sleep 1
 echo -ne "[ ${yell}COMPLETED${NC} ] PENGINSTALAN SCRIPT SELESAI KETIK Y UNTUK REBOOT ! (y/n)? "
 read answer
