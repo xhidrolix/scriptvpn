@@ -353,6 +353,8 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <b> VNZ VPN STORE SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
+<i>Script Version 1.0 Stable</i>
+<i>Script By VnzVPN</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/VnzVM"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
