@@ -333,7 +333,7 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-4124346554"
+CHATID="-1002156905690"
 KEY="7131481321:AAGI3LtovNqUG65-Uf9aMM93n_RzrCRg8Oo"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
@@ -353,7 +353,7 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <b> VNZ VPN STORE SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/VnzPro"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/VnzVM"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
